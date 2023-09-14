@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title> Responsive Drop Down Navigation Menu | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<nav>
+    <div class="navbar">
+        <i class='bx bx-menu'></i>
+        <div class="logo"><a href="#">ExamLab</a></div>
+        <div class="nav-links">
+            <div class="sidebar-logo">
+                <span class="logo-name">ExamLab</span>
+                <i class='bx bx-x' ></i>
+            </div>
+            <ul class="links">
+                <li><a href="#">Medical</a></li>
+                <li><a href="#">Engineering</a></li>
+                <li>
+                    <a href="#">Subjects</a>
+                    <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                        <li><a href="#">Engineering Drawing</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Mathematics</a></li>
+                        <li><a href="#">Chemistry</a></li>
+                        <li><a href="#">Physics</a></li>
+                        <li class="more">
+                <span><a href="#">Biology</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                            <ul class="more-sub-menu sub-menu">
+                                <li><a href="#">Zoology</a></li>
+                                <li><a href="#">Botany</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+<!--                <li>-->
+<!--                    <a href="#">JAVASCRIPT</a>-->
+<!--                    <i class='bx bxs-chevron-down js-arrow arrow '></i>-->
+<!--                    <ul class="js-sub-menu sub-menu">-->
+<!--                        <li><a href="#">Dynamic Clock</a></li>-->
+<!--                        <li><a href="#">Form Validation</a></li>-->
+<!--                        <li><a href="#">Card Slider</a></li>-->
+<!--                        <li><a href="#">Complete Website</a></li>-->
+<!--                    </ul>-->
+<!--                </li>-->
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <i class='bx bx-search'></i>
+            <div class="input-box">
+                <label>
+                    <input type="text" placeholder="Search...">
+                </label>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+    <aside class="left-aside">
+        <h2>Left Aside</h2>
+        <p>This is the content of the left aside.</p>
+    </aside>
+
+    <div class="middle-content">
+        <h1>Main Article</h1>
+        <p>This is the main content of the article.</p>
+    </div>
+
+    <aside class="right-aside">
+        <h2>Right Aside</h2>
+        <p>This is the content of the right aside.</p>
+    </aside>
+</div>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
